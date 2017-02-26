@@ -29,8 +29,9 @@ or implied, of Rafael Muñoz Salinas.
 #define _USE_MATH_DEFINES
 #include <math.h>
 #include <cstdio>
-#include <opencv2/calib3d/calib3d.hpp>
-#include <opencv2/highgui/highgui.hpp>
+//#include <opencv2/calib3d/calib3d.hpp>
+//#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/opencv.hpp>
 using namespace cv;
 namespace aruco {
 /**

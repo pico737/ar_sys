@@ -29,8 +29,9 @@ or implied, of Rafael Muñoz Salinas.
 #include <aruco/subpixelcorner.h>
 #include <aruco/arucofidmarkers.h>
 #include <aruco/ar_omp.h>
-#include <opencv/cv.h>
-#include <opencv/highgui.h>
+//#include <opencv/cv.h>
+//#include <opencv/highgui.h>
+#include <opencv2/opencv.hpp>
 #include <iostream>
 #include <fstream>
 #include <valarray>
