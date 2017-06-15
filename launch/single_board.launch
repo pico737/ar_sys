@@ -39,7 +39,7 @@
 		</node>
 	</group> -->
 
-	<include file="$(find video_stream_opencv)/launch/webcam.launch">
+	<include file="$(find video_stream_opencv)/launch/camera.launch">
 	</include>
 
 	<node ns="/" pkg="ar_sys" type="single_board" name="ar_single_board$(arg uid)" output="screen">
